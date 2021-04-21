@@ -84,8 +84,7 @@ let main (input, specs) =
     let output = output_path input
     in transform (input, output, specs)
 ;;
-(*
+
 let input = "/mnt/data/gaia/GaiaSource_000000-003111.csv"
-and specs = ["solution_id"; "l"; "b"]
+and specs = ["solution_id"; "l"; "b"; "parallax"; "pseudocolour"; "phot_g_mean_mag"]
 in main(input, specs)
-*)
